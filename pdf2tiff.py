@@ -20,7 +20,7 @@ for page in pages:
 print('\n'
 '''
   ,-~~-.___.
- / |  '     \      "Finished"!
+ / |  '     \      "Finished!"
 (  )         0
  \_/-, ,----'
     ====           //
