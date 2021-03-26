@@ -23,7 +23,7 @@ for filename in os.listdir(pdf_directory):
 print('\n'
 '''
   ,-~~-.___.
- / |  '     \      "Finished"!
+ / |  '     \      "Finished!"
 (  )         0
  \_/-, ,----'
     ====           //
