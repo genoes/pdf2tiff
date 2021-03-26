@@ -8,4 +8,4 @@
 * [Poppler](https://formulae.brew.sh/formula/poppler)
 
 ### Troubleshooting
-1. ```shutil.Error: Destination path './TIFFs/image.tif' already exists``` : Duplicate image file present in the TIFF output folder. Remove file from output folder or skip PDF in job.
+1. ```shutil.Error: Destination path './TIFFs/image.tif' already exists``` : Duplicate image file present in the TIFF output folder. Remove file from output folder or skip PDF from source.
