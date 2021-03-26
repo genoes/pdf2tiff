@@ -7,6 +7,8 @@
 * [pdf2image](https://pypi.org/project/pdf2image/)
 * [Poppler](https://formulae.brew.sh/formula/poppler)
 
+------------
+
 ### Troubleshooting
 1. ```shutil.Error: Destination path './TIFFs/image.tif' already exists``` : 
 * Reason: Duplicate image file present in the TIFF output directory.
