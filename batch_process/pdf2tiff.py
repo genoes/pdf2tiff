@@ -19,6 +19,7 @@ for filename in os.listdir(pdf_directory):
             tiff_file = img_file + "_" + str(count).zfill(3) + ".tif"
             page.save(tiff_file), 'TIFF'
             shutil.move(tiff_file, './TIFFs')
+        print("creating TIFFs from", os.path.basename(file))
 
 print('\n'
 '''
