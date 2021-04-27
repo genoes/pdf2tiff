@@ -6,7 +6,7 @@ except FileExistsError:
     # directory already exists
     pass
 
-pdf_file = input('\n'"Enter absolute path to PDF file: ").strip(" ")
+pdf_file = input('\n'"Enter absolute path to PDF file: ").strip()
 pages = convert_from_path(pdf_file)
 img_file = pdf_file.replace(".pdf", "")
 
