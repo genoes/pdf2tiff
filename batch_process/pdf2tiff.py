@@ -6,7 +6,7 @@ except FileExistsError:
     # directory already exists
     pass
 
-pdf_directory = input('\n''Enter absolute path to PDF directory: ').strip(" ")
+pdf_directory = input('\n''Enter absolute path to PDF directory: ').strip()
 for filename in os.listdir(pdf_directory):
     if filename.endswith('.pdf'):
         file = (os.path.join(pdf_directory, filename))
