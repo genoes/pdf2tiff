@@ -16,9 +16,9 @@ for filename in os.listdir(source):
         img_file = file.replace('.pdf', "")
 
         count = 0
-        pbar = tqdm(pages, colour = 'magenta', bar_format = '{l_bar}{bar:20}{r_bar}{bar:-10b}')
+        pbar = tqdm(pages, colour = 'green', bar_format = '{l_bar}{bar:20}{r_bar}{bar:-10b}')
         for page in pbar:
-            pbar.set_description("Exporting TIFFs from %s" % filename)
+            pbar.set_description("Converting %s" % filename)
             count += 1
             tiff_file = img_file + "_" + str(count).zfill(3) + ".tif"
             page.save(tiff_file, dpi=(600, 600), compression = 'none', filetype = 'TIFF')
