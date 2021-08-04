@@ -17,6 +17,7 @@ for filename in os.listdir(source):
 
         count = 0
         pbar = tqdm(pages, colour = 'green', bar_format = '{l_bar}{bar:20}{r_bar}{bar:-10b}')
+        
         for page in pbar:
             pbar.set_description("Converting %s" % filename)
             count += 1
