@@ -10,8 +10,8 @@
 ------------
 
 ### Troubleshooting
-###```raise Error("Destination path '%s' already exists" % real_dst)</br> shutil.Error: Destination path './TIFFs/file-name.tif' already existsshutil.Error: Destination path './TIFFs/image.tif' already exists``` : 
-* Reason: Duplicate image file present in the TIFF output directory.
+raise Error("Destination path '%s' already exists" % real_dst)<br/>shutil.Error: Destination path './TIFFs/image.tif' already existsshutil.Error: Destination path './TIFFs/image.tif' already exists:
+* Reason: Duplicate image file(s) present in the TIFF output directory.
 * Solutions:
 	1. Remove duplicates from output directory and rerun script....OR
 	2. Remove PDF from source and rerun script.
