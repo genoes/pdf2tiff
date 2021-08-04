@@ -10,7 +10,7 @@
 ------------
 
 ### Troubleshooting
-raise Error("Destination path '%s' already exists" % real_dst)<br/>shutil.Error: Destination path './TIFFs/image.tif' already existsshutil.Error: Destination path './TIFFs/image.tif' already exists:
+*raise Error("Destination path '%s' already exists" % real_dst)<br/>shutil.Error: Destination path './TIFFs/file-name.tif' already existsshutil.Error: Destination path './TIFFs/image.tif' already exists*
 * Reason: Duplicate image file(s) present in the TIFF output directory.
 * Solutions:
 	1. Remove duplicates from output directory and rerun script....OR
