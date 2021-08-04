@@ -14,7 +14,7 @@ count = 0
 for page in pages:
     count += 1
     tiff_file = img_file + "_" + str(count).zfill(3) + ".tif"
-    page.save(tiff_file), 'TIFF'
+    page.save(tiff_file, dpi=(600, 600)), 'TIFF'
     shutil.move(tiff_file, './TIFFs')
 
 print('\n'
