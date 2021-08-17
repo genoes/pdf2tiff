@@ -1,5 +1,5 @@
 # pdf2tiff
-## Create individual TIFF files from PDF files
+## Export PDF pages as TIFF files
 
 ### Requirements
 * [Homebrew](https://brew.sh/ "Homebrew")
